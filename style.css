@@ -1,0 +1,53 @@
+body{
+    background: url("imgs/fondo.jpg") no-repeat;
+    background-size: auto;
+    background-position: 50%;
+}
+.titulo{
+    background-color: #dd6829;
+    padding: 2rem 1rem;
+}
+
+header h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.principal{
+    width: 400px;
+    margin: 10%;
+}
+
+section article{
+    transition: box-shadow 0.3s ease;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: default;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 30);
+}
+
+footer{
+    background-color: #dd6829;
+    padding: 1rem;
+}
+footer section{
+    float: right;
+}
+
+footer p {
+    margin: 0%;
+    text-decoration: solid;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: orange;
+}
