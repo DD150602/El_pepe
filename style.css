@@ -2,10 +2,11 @@ body{
     background: url("imgs/fondo.jpg") no-repeat;
     background-size: auto;
     background-position: 50%;
+    background-attachment: fixed;
 }
 .titulo{
     background-color: #dd6829;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem ;
 }
 
 header h1{
@@ -14,7 +15,8 @@ header h1{
 }
 .principal{
     width: 400px;
-    margin: 10%g;
+    margin: 0 ;
+    display: flex;
 }
 
 section article{
@@ -23,6 +25,14 @@ section article{
     border-radius: 0.5rem;
     padding: 0.25rem 0;
     cursor: default;
+}
+section div.lados_2 {
+    margin-left: 20px;
+}
+
+section div article img{
+    width: 399px;
+    height: 295px;
 }
 
 section article:hover{
