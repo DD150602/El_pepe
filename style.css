@@ -1,5 +1,9 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
 body{
-    background: url("imgs/fondo.jpg") no-repeat;
+    background: url("imgs/fondo.jpg");
     background-size: auto;
     background-position: 50%;
     background-attachment: fixed;
@@ -14,9 +18,10 @@ header h1{
     text-align: center;
 }
 .principal{
-    width: 400px;
-    margin: 0 ;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
 }
 
 section article{
@@ -24,15 +29,14 @@ section article{
     margin: 1rem 0;
     border-radius: 0.5rem;
     padding: 0.25rem 0;
-    cursor: default;
 }
-section div.lados_2 {
-    margin-left: 20px;
+.img_1{
+    width: 554px;
+    height: 300px;
 }
-
-section div article img{
-    width: 399px;
-    height: 295px;
+.img_2{
+    width: auto;
+    height: 300px;
 }
 
 section article:hover{
@@ -60,4 +64,8 @@ footer a{
 
 footer a:hover{
     color: orange;
+}
+
+.pan_til:active{
+    color: black;
 }
